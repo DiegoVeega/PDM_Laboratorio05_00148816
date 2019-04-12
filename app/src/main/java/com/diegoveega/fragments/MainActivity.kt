@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity(), FRagmentBasic.ListenerToolBox {
                 .beginTransaction()
                 .add(R.id.activity_content, fragmentBasic)
                 .commit()
+        //Saber si esta en port o land con IF(resource.configuration.orientation ==Configaration."ORIENTATION"){ toast.maketext(this, "estoy en land", toast.LENGT_LONG.show)
     }
 
 
